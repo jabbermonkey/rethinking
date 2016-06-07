@@ -1,5 +1,5 @@
 # compare
-
+library(graphics)
 # compare class definition and show method
 setClass( "compareIC" , representation( output="data.frame" , dSE="matrix" ) )
 
