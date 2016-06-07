@@ -1,4 +1,6 @@
 # compare
+if (!isGeneric("plot")) 
+      setGeneric("plot", function(x, y, ...) standardGeneric("plot")) 
 
 # compare class definition and show method
 setClass( "compareIC" , representation( output="data.frame" , dSE="matrix" ) )
